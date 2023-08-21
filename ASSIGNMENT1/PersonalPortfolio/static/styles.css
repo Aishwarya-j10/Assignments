@@ -28,29 +28,29 @@ nav ul li a {
     color: white;
 }
 
-/* #home {
+#home {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 2em;
-} */
+}
 
-/* .intro {
+.intro {
     flex: 1;
-} */
+}
 
-/* .photo img {
+.photo img {
     max-width: 100%;
     height: auto;
     border-radius: 50%;
-} */
+}
 /* ... previous styles ... */
 
-/* #skills .skill {
+#skills .skill {
     margin-bottom: 20px;
-} */
+}
 
-/* .progress-bar {
+.progress-bar {
     background-color: #f2f2f2;
     height: 20px;
     color: white;
@@ -58,7 +58,7 @@ nav ul li a {
     line-height: 20px;
     width: 0;
 }
-... previous styles ... */
+/* ... previous styles ... */
 
 #contact {
     text-align: center;
@@ -162,16 +162,17 @@ nav ul li a {
 .project-link:hover {
     background-color: #555;
 }
-/* ... previous styles ... */
+
 
 #skills {
     text-align: center;
     padding: 2em;
+    width: 80%
 }
 
 .skill {
     background-color: #f7f7f7;
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
@@ -184,7 +185,8 @@ nav ul li a {
 }
 
 .progress {
-    height: 20px;
+    height: 10px;
+    padding: 20px;
     background-color: #ddd;
     border-radius: 10px;
     margin-top: 10px;
@@ -201,11 +203,9 @@ nav ul li a {
     transition: width 0.3s;
 }
 
-/* Increase width as the progress bar fills */
+
 .progress-bar.width-80 { width: 80%; }
 .progress-bar.width-90 { width: 90%; }
-/* Add more classes for different widths */
-/* ... previous styles ... */
 
 #about {
     text-align: center;
@@ -234,6 +234,11 @@ nav ul li a {
 }
 
 .about-details {
+    flex: 0.6;
+    padding-left: 20px;
+    text-align: left;
+}
+.about-details1 {
     flex: 0.6;
     padding-left: 20px;
     text-align: left;
