@@ -19,17 +19,17 @@ This repository contains a basic implementation of linear regression in Python u
 
 ## Instructions:
 
--Clone the repository: git clone https://github.com/your-username/basic-linear-regression.git
--Navigate to the project directory: cd basic-linear-regression
--Install dependencies: pip install pandas numpy scikit-learn matplotlib
--Run the Jupyter Notebook: jupyter notebook linear_regression.ipynb
+1) Clone the repository: git clone https://github.com/your-username/basic-linear-regression.git
+2) Navigate to the project directory: cd basic-linear-regression
+3) Install dependencies: pip install pandas numpy scikit-learn matplotlib
+4) Run the Jupyter Notebook: jupyter notebook linear_regression.ipynb
 
 ## Usage:
 
--Open the Jupyter Notebook.
--Follow the instructions to select target and predictor variables.
--Run the code cells to train the linear regression model.
--View the regression coefficients, R-squared value, and visualization of results.
+1) Open the Jupyter Notebook.
+2) Follow the instructions to select target and predictor variables.
+3) Run the code cells to train the linear regression model.
+4) View the regression coefficients, R-squared value, and visualization of results.
 
 ## Contributions:
 Contributions are welcome! If you find any issues or ways to improve the project, feel free to open an issue or submit a pull request.
